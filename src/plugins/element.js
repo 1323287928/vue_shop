@@ -4,6 +4,10 @@ import {Button,Form,FormItem,Input,Message,Aside,Main,Header,
     BreadcrumbItem,Card,Row,Col,Table,TableColumn,Switch,Tooltip,
     Pagination,Dialog,MessageBox,Tag,Tree,Select,Option,Cascader,
     Alert,Tabs,TabPane,Steps,Step,CheckboxGroup,Checkbox,Upload} from "element-ui"
+import Timeline from "./timeline/index"
+import TimelineItem from "./timeline-item/index"
+Vue.use(Timeline)
+Vue.use(TimelineItem )
 Vue.use(Button)
 Vue.use(Form)
 Vue.use(FormItem)
