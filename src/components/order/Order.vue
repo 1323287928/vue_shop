@@ -155,11 +155,11 @@ export default {
         this.$refs.addressFormRef.resetFields()
        },
       async showProgressBox(){
-     const {data:res}= await this.$http.get('/kuaidi/804909574412544580')
-        if(res.meta.status!==200){
-            return this.$message.error("获取物流进度失败!")
-        }
-        this.progressInfo=res.data
+    //  const {data:res}= await this.$http.get('/kuaidi/804909574412544580')
+    //     if(res.meta.status!==200){
+    //         return this.$message.error("获取物流进度失败!")
+    //     }
+    //     this.progressInfo=res.data
         this.progressVisible=true
        }
     },
